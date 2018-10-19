@@ -39,6 +39,6 @@ jobs:
     #- run: yarn test
 
     #run linter
-    - run: yarn eslint
+    - run: ./node_modules/.bin/eslint .
 
 
