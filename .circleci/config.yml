@@ -45,9 +45,9 @@ workflows:
   build:
     jobs:
     - build
-  linter:
-    jobs:
-    - eslint
+    - eslint:
+        requires:
+        - build
 
 
 
