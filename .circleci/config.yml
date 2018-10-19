@@ -36,4 +36,9 @@ jobs:
     # run tests!
 #    - run: yarn test
 
+    #run linter
+    - run:
+        name: Run ESlint
+        command: npm run eslint
+
 
